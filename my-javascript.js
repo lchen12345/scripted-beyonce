@@ -14,4 +14,22 @@ $(function() {
     let content = prompt("Early life");
     $("#earlylife").text(content);
   });
+  
+  $("#albumbuttond").click(function() {
+    $("#four,#lemonade").hide();
+    $("#dangerously").show();
+
+  });
+  
+  $("#albumbuttonf").click(function() {
+    $("#dangerously,#lemonade").hide();
+    $("#four").show();
+
+  });
+  
+  $("#albumbuttonl").click(function() {
+    $("#dangerously,#four").hide();
+    $("#lemonade").show();
+
+  });
 });

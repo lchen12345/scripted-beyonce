@@ -29,4 +29,22 @@ h2 { margin-bottom: 5px; }
     margin: 0;
 }
 
-body {background-color: red;}
+.buttonlist {
+    list-style-type: none;
+    display:flex;
+    margin-left: -40px;
+}
+
+.albumbutton {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.dangerously, .four, .lemonade{
+    display:flex;
+    margin-top: -16px;
+}
+
+.listofalbums {
+    margin-top: 60px;
+}
